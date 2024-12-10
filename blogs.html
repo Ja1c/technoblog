@@ -6,11 +6,60 @@
 -->
 <html>
 <head>
-    <title>Blog|Technopreneurship</title>
+    <title>Blog | Technopreneurship</title>
     <meta charset="utf-8">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .wrapper {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .intro h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .intro p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .blog-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .blog-buttons .button {
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .blog-buttons .button:hover {
+            background-color: #2980b9;
+        }
+        .header-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body class="subpage">
 
@@ -33,26 +82,35 @@
             <div class="dropdown-content">
                 <a href="blog1.html">Blog 1</a>
                 <a href="blog2.html">Blog 2</a>
-                <a href="blog3.html">Blog 3</a> 
+                <a href="blog3.html">Blog 3</a>
+                <a href="blog4.html">Blog 4</a>
+                <a href="blog5.html">Blog 5</a>
             </div>
         </li>
     </ul>
 </nav>
 
-<!-- One -->
+<!-- Main Content -->
 <section id="one" class="wrapper style2">
     <div class="inner">
+        <!-- Add a visual header -->
+        <img src="images/logoImage.png" alt="Blog Header" class="header-image">
+
         <div class="intro">
             <h1>Welcome to the Adoptable Blog</h1>
-            <p>Hi, welcome to the blog for Adoptable! Here, we share insights, stories, and updates about our journey in making pet adoption easier and more accessible. Explore the posts below to learn more about customer experiences, the adoption process, and the vision behind our startup.</p>
-            
-            <div class="blog-buttons">
-                <a href="blog1.html" class="button">Read Blog 1</a>
-                <a href="blog2.html" class="button">Read Blog 2</a>
-                <a href="blog3.html" class="button">Read Blog 3</a> <!-- Added the third blog button here -->
-            </div>
+            <p>
+                Explore the latest insights, stories, and updates about our mission to make pet adoption 
+                simpler, more accessible, and joyful. Dive into our blogs below to see the journey unfold!
+            </p>
         </div>
         
+        <div class="blog-buttons">
+            <a href="blog1.html" class="button">Read Blog 1: Interview</a>
+            <a href="blog2.html" class="button">Read Blog 2: Digital Business Model</a>
+            <a href="blog3.html" class="button">Read Blog 3: Revenue Model</a>
+            <a href="blog4.html" class="button">Read Blog 4: Competitive Analysis</a>
+            <a href="blog5.html" class="button">Read Blog 5: Market Sizing (TAM, SAM, SOM)</a>
+        </div>
     </div>
 </section>
 
